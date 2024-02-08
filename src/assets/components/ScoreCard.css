@@ -1,0 +1,76 @@
+.container {
+    height: 100vh;
+  padding: 5vw 0;
+    background-image: url(https://e0.pxfuel.com/wallpapers/802/314/desktop-wallpaper-australia-wait-for-india-over-day-night-test-cricket-news-cricket-ground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .team-container {
+    /* background-color: red  ; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .winner {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3vw;
+    margin: 1vw 0;
+    margin: 1vw 0;
+    display: block;
+    height: 5vw;
+  }
+  
+  .team {
+    width: 350px;
+    border: 1px solid #fbfff4;
+    padding: 1vw;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .team span {
+    display: block;
+    margin: 1vw auto;
+    text-align: center;
+    font-size: 2vw;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    /* background-color: rebeccapurple; */
+    margin: 2vw auto;
+    margin-top: 5vw;
+  }
+  
+  button {
+    padding: 0.5vw;
+    background-color: #00c9ff;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .reset{
+      display: block;
+      margin: 0 auto;
+      padding:.6vw 2vw;
+      margin-top: 3vw;
+      font-size: 1.5vw;
+      border-radius: 20px;
+      
+  }
